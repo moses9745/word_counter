@@ -1,0 +1,11 @@
+user_Input = input("Enter your sentence: ")
+# using split() 
+# to count words in string 
+sent = len(user_Input.split()) 
+  
+# printing result 
+print ("The number of words in your sentence are : " +  str(sent))
+
+def words_in_sentence(x):
+  sent = len(user_Input.split())
+  return sent
